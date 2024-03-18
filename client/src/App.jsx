@@ -6,7 +6,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Projects from './pages/Projects';
 import Header from './components/Header';
-import { Footer } from 'flowbite-react';
+import FooterCom from './components/Footer';
 
 export default function App() {
   return (
@@ -20,7 +20,7 @@ export default function App() {
       <Route path="signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>
-    <Footer></Footer>
+    <FooterCom/>
     </BrowserRouter>
   )
 }
