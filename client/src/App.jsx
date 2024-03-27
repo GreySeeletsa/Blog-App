@@ -28,14 +28,13 @@ export default function App() {
       <Route element={<OnlyAdminPrivateRoute />}>
       <Route path='/create-post' element={<CreatePost />} />
       <Route path='/update-post/:postId' element={<UpdatePost />} />
-      <Route path='/post/:postSlug' element={<PostPage />} />
       </Route>
       <Route path="/projects" element={<Projects />} />
-      <Route path="/post" element={<PostPage />} />
+      <Route path="/post/:postSlug" element={<PostPage />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>
     <FooterCom/>
     </BrowserRouter>
-  )
+  );
 }
