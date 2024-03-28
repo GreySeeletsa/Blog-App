@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,7 +12,7 @@ export default {
   // eslint-disable-next-line no-undef
   plugins: [
     require("flowbite/plugin"),
+    // eslint-disable-next-line no-undef
     require('tailwind-scrollbar'),
-    require('@tailwindcss/line-clamp'),
   ],
 };
