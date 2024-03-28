@@ -15,8 +15,8 @@ export default function CallToAction() {
                     we’ll explore ways to enhance your daily life.
             </h2>
         </div>
-        <div className="p-7 flex-1">
-            <img src="https://media.istockphoto.com/id/1363368428/vector/girl-choosing-healthy-lifestyle-practicing-yoga-near-sport-equipment-vegetables.jpg?s=2048x2048&w=is&k=20&c=Zumtw6XnxEMVr8HnFgXKEOFB86H-ZOi310GpqtngQTU=" />
+        <div className="p-5 flex-1 flex justify-center items-center">
+            <img src="https://cdn.pixabay.com/photo/2023/08/02/18/21/yoga-8165759_960_720.jpg" width="400" height="300" />
         </div>
     </div>
   )

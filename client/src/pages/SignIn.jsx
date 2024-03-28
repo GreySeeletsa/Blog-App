@@ -46,7 +46,7 @@ export default function SignIn() {
             <span className="px-2 py-1 bg-gradient-to-r from-green-900 via-teal-600 to-slate-800 rounded-lg text-white">Health and Wellness</span>
         </Link>
         <p className='text-sm mt-5'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Welcome to our health and wellness blog!Let’s embark on this wellness journey together.Sign in or create an account for free.
         </p>
         </div>
         <div className="flex-1">
