@@ -116,7 +116,7 @@ export default function CreatePost() {
           />
           <Button
             type='button'
-            gradientDuoTone='purpleToBlue'
+            gradientDuoTone='greenToBlue'
             size='sm'
             outline
             onClick={handleUpdloadImage}
